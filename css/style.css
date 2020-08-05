@@ -14,6 +14,48 @@ p{
 
 /*
 -----------------------------
+|   | Generic CSS
+-----------------------------
+*/
+.section-title{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    
+}
+
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-title h2:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129cf3;
+    margin-left: -30px;
+    font-size: 20px;
+}
+
+.section-title p{
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-top: 45px;
+}
+
+
+/*
+-----------------------------
 |   | Header
 -----------------------------
 */
@@ -110,16 +152,76 @@ btn-tour:visited{
     color: #fff;
 }
 
+/*
+-----------------------------
+|   | About US
+-----------------------------
+*/
 
+.choose-us-wraper{
+    padding-top: 50px;
+}
 
+.about-left img{
+    margin-top: 8px;
+}
+.choose-us-title{
+   padding-bottom: 50px; 
+}
+.choose-us-title h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
 
+.choose-us-title h2:after{
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: #129cf3;
+}
 
+.choose-us-title p{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 24px;
+}
 
+.choose-us-item{
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}
 
+.choose-us-item div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.choose-us-item div i{
+    font-size: 55px;
+    color: #123cf3;
+    -webkit-transition: all 3s;
+    transition: all 3s;
+}
 
+.choose-us-item h2{
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
 
-
+.choose-us-itemp{
+    color: #727272;
+    font-size: 15px;
+}
 
 
 
