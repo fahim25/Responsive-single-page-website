@@ -363,9 +363,41 @@ btn-tour:visited{
     font-weight: 300;
     line-height: 25px;
 }
+/*
+-----------------------------
+|   |
+-----------------------------
+*/
+.purchase{
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
+.purchase p{
+    color: #dfdfdf;
+    font-size: 20px;
+    font-weight: 300;
+}
 
+.btn-purchase,
+.btn-purchase:active,
+.btn-purchase:focus,
+.btn-purchase:visited{
+    background-color: #129cf3;
+    border: 1px solid #129cf3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
 
+.btn-purchase:hover{
+    background-color: #1274b1;
+    border-color: #316b90;
+}
 
 
 
