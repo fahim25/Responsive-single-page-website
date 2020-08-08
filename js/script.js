@@ -12,3 +12,15 @@ $(function () {
         slideMargin:50
     });
 }); 
+
+/*
+-----------------------------
+|   | Counter
+-----------------------------
+*/
+$(function () {
+    $('.counter-number').counterUp({
+        delay: 50,
+        time: 2000
+    });
+});
