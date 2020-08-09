@@ -442,17 +442,95 @@ btn-tour:visited{
     font-family: "Source Sans Pro", sans-serif;
 }
 
+/*
+-----------------------------
+|   |Download-now
+-----------------------------
+*/
+
+.download-now img{
+    width: 100%;
+}
 
 
+/*
+-----------------------------
+|   |Available-on
+-----------------------------
+*/
+.available-on{
+    background-color: #1a1a1a;
+    margin-top: -8x;
+    position: relative;
+}
 
+.available-title{
+    padding-top: 75px;
+}
 
+.available-title h2{
+    color: #fff;
+    font-size: 30px;
+}
 
+.available-title p{
+    color: #b5b5b5;
+    font-size: 20px;
+}
 
+.no-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+.availabe-on-item{
+    text-align: center;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
 
+.availabe-on-item:hover{
+    background-color: #121212;
+}
 
+.availabe-on-item i{
+    color: #129cf3;
+    text-align:center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
 
+.availabe-on-item i:hover{
+    opacity: 0;
+}
 
+.available-on-inner{
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.available-on-inner h2{
+    text-align: center;
+    font-weight: 300;
+    color: #d7dadb;
+    font-size: 16px;
+    
+}
+
+.availabe-on-item:hover div.available-on-inner{
+    opacity: 1;
+}
+    
 
 
 
