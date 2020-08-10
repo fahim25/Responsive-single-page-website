@@ -39,26 +39,26 @@ $(function () {
     });
 
     function showHideNav() {
-        if ($(window).scrollTop() < 250) {
-            $('.navbar').css({
-                'margin-top':'-100px',
-                'opacity':'0'
-            });
-            
-            $('.navbar-default').css({
-                'background-color':'rgba(59,59,59,0)'
-            });
-
-        } else {
-
+        if ($(window).scrollTop() > 250) {
             $('.navbar').css({
                 'margin-top':'0',
-                'opacity':'1'
+                'opacity':'1',
+            
             });
             
             $('.navbar-default').css({
                 'background-color':'rgba(59,59,59,0.7)'
             });
+
+        } else {
+            $('.navbar').css({
+                'opacity':'0' 
+            });
+            
+            $('.navbar-default').css({
+                'background-color':'rgba(59,59,59,0)'
+            });
+            
         }
     }
 });
@@ -104,9 +104,15 @@ $(function () {
   });
 }); 
 
+/*
+====================================
+|   |   |   | WOW
+====================================
+*/
 
-
-
+$(function () {
+    new WOW().init();
+});
 
 
 
