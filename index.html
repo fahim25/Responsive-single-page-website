@@ -38,37 +38,59 @@
     <body>
         
         <!--Header-->
-        <header class="header">
-            <div class="header-overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            
-                            <!--Logo-->
-                            <div class="logo text-center">
-                                <img src="img/logo.png" alt="logo">
-                            </div>
-                            
-                        </div>
-                    </div>
+        <header class="header" id="home">
+            <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-default navbar-light fixed-top">
+               <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo-small.png" alt="logo">
+                        </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#loso-navbar" aria-controls="loso-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse " id="loso-navbar">
+                        <ul class="navbar-nav nav ml-auto">
+                          <li  class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                          <li  class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                          <li  class="nav-item"><a class="nav-link" href="#feature">FEATURES</a></li>
+                          <li  class="nav-item"><a class="nav-link" href="#screen">SRCEENS</a></li>
+                          <li  class="nav-item"><a class="nav-link" href="#download">DOWNLOAD</a></li>
+                          <li  class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                        </ul>
+                      </div>
+                </div>
                     
-                    <!--Second Row-->
-                    <div class="row">
-                        <!--For Title And Description-->
-                        <div class="col-md-8">
-                            <div class="header-text">
-                                <h1>A Clean and modern looking responsive website.</h1>
-                                <p>Built with love.</p>
-                            </div>
-                            <!--Buttons-->
-                            <div class="header-btn">
-                                <a class="btn btn-download" href="#">Download</a>
-                                <a class="btn btn-tour" href="#">Take A Tour
-                                <i class="fa fa-angle-down"></i>
-                                </a> 
-                                
+                </nav>
+                <!--End of Navigation Bar-->
+                <div class="header-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <!--Logo-->
+                                <div class="logo text-center">
+                                    <img src="img/logo.png" alt="logo">
+                                </div>
+
                             </div>
                         </div>
+
+                        <!--Second Row-->
+                        <div class="row">
+                            <!--For Title And Description-->
+                            <div class="col-md-8">
+                                <div class="header-text">
+                                    <h1>A Clean and modern looking responsive website.</h1>
+                                    <p>Built with love.</p>
+                                </div>
+                                <!--Buttons-->
+                                <div class="header-btn">
+                                    <a class="btn btn-download" href="#">Download</a>
+                                    <a class="btn btn-tour" href="#">Take A Tour
+                                    <i class="fa fa-angle-down"></i>
+                                    </a> 
+                                </div>
+                             </div>
                         <!--For Images -->
                         <div class="col-md-3 col-md-offset-1">
                             <div class="header-iphone">
@@ -84,7 +106,7 @@
         <!--End of Header-->
         
         <!--About Us-->
-        <section>
+        <section id="about">
             <!--About US Top-->
             <div class="container">
                 <div class="row">
@@ -209,7 +231,7 @@
         <!--End of Testimonials-->
         
         <!--Feature-->
-        <section class="feature">
+        <section class="feature" id="feature">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -325,7 +347,7 @@
         <!-- End of Purchase Section-->
         
         <!--Screen-->
-        <section class="screen">
+        <section class="screen" id="screen">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -414,7 +436,7 @@
         <!--End of Counter Section-->
         
         <!--Download Now-->
-        <section class="download-now">
+        <section class="download-now" id="download">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -499,7 +521,7 @@
         <!--End of Available on-->
         
         <!--Contact Us-->
-        <section class="contact-us">
+        <section class="contact-us" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -562,7 +584,7 @@
                     
                     <div class="col-md-2">
                         <div class="scroll-top">
-                            <a href="#"><i class="fa fa-angle-up"></i></a>  
+                            <a href="#home" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>  
                         </div>
                     </div>
                     
