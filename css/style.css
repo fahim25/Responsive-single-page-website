@@ -670,12 +670,50 @@ submit-btn:visited{
     font-size: 30px;
     font-weight: 500;
 }
+
+/*
+-----------------------------
+|   | Navigation
+-----------------------------
+*/
+.navbar-default{
+    background-color: transparent;
+    border: #444;
+    z-index: 110;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-family: "Raleway", sans-serif !important;
+    -webkit-transition: all 1s !important;
+    transition: all 1s !important; 
     
-    
+}
+
+.nav-link:hover{
+    color: #129cf3 !important;
+}
 
 
+.nav-link:focus{
+    color: #b5b5b5 !important;
+}
+
+.navbar-brand{
+    padding: 9px 15px;
+}
+
+.navbar-brand img{
+    -webkit-transition: all 1s !important;
+    transition: all 1s !important;
+}
 
 
+.nav-link:hover{
+    color: #129cf3 !important;
+}
 
 
 
