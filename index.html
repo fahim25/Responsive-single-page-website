@@ -5,7 +5,8 @@
         
         <meta charset="utf-8">
         
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         
         
         
@@ -30,8 +31,12 @@
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
          <!--Animate CSS-->
         <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!--Responsive Css-->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        
         <!--Favicon-->
         <link rel="icon" type="image/png" href="img/favicon.png">
+        
         
         
     </head>
@@ -39,71 +44,73 @@
     <body>
         
         <!--Header-->
-        <header class="header" id="home">
-            <!--Navigation Bar-->
-            <nav class="navbar navbar-expand-lg navbar-default navbar-light fixed-top">
-               <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img src="img/logo-small.png" alt="logo">
-                        </a>
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#loso-navbar" aria-controls="loso-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse " id="loso-navbar">
-                        <ul class="navbar-nav nav ml-auto">
-                          <li  class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
-                          <li  class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
-                          <li  class="nav-item"><a class="nav-link" href="#feature">FEATURES</a></li>
-                          <li  class="nav-item"><a class="nav-link" href="#screen">SRCEENS</a></li>
-                          <li  class="nav-item"><a class="nav-link" href="#download">DOWNLOAD</a></li>
-                          <li  class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
-                        </ul>
-                      </div>
-                </div>
-                    
-                </nav>
-                <!--End of Navigation Bar-->
-                <div class="header-overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-
-                                <!--Logo-->
-                                <div class="logo text-center">
-                                    <img src="img/logo.png" alt="logo">
-                                </div>
-
-                            </div>
+        <section id="home">
+                <header class="header">
+                    <!--Navigation Bar-->
+                    <nav class="navbar navbar-expand-lg navbar-default navbar-light fixed-top">
+                       <div class="container">
+                                <a class="navbar-brand" href="#">
+                                    <img src="img/logo-small.png" alt="logo">
+                                </a>
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#loso-navbar" aria-controls="loso-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse " id="loso-navbar">
+                                <ul class="navbar-nav nav ml-auto">
+                                  <li  class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                                  <li  class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                                  <li  class="nav-item"><a class="nav-link" href="#feature">FEATURES</a></li>
+                                  <li  class="nav-item"><a class="nav-link" href="#screen">SRCEENS</a></li>
+                                  <li  class="nav-item"><a class="nav-link" href="#download">DOWNLOAD</a></li>
+                                  <li  class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                                </ul>
+                              </div>
                         </div>
 
-                        <!--Second Row-->
-                        <div class="row">
-                            <!--For Title And Description-->
-                            <div class="col-md-8">
-                                <div class="header-text">
-                                    <h1>A Clean and modern looking responsive website.</h1>
-                                    <p>Built with love.</p>
+                        </nav>
+                        <!--End of Navigation Bar-->
+                        <div class="header-overlay">
+                            <div class="container header-container">
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <!--Logo-->
+                                        <div class="logo text-center">
+                                            <img src="img/logo.png" alt="logo">
+                                        </div>
+
+                                    </div>
                                 </div>
-                                <!--Buttons-->
-                                <div class="header-btn">
-                                    <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
-                                    <a class="btn btn-tour wow fadeInRight" href="#">Take A Tour
-                                    <i class="fa fa-angle-down"></i>
-                                    </a> 
+
+                                <!--Second Row-->
+                                <div class="row">
+                                    <!--For Title And Description-->
+                                    <div class="col-md-8">
+                                        <div class="header-text">
+                                            <h1>A Clean and modern looking responsive website.</h1>
+                                            <p>Built with love.</p>
+                                        </div>
+                                        <!--Buttons-->
+                                        <div class="header-btn">
+                                            <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+                                            <a class="btn btn-tour wow fadeInRight" href="#">Take A Tour
+                                            <i class="fa fa-angle-down"></i>
+                                            </a> 
+                                        </div>
+                                     </div>
+                                <!--For Images -->
+                                <div class="col-md-4">
+                                    <div class="header-iphone">
+                                        <!--Header Iphone-->
+                                        <img src="img/iphone-header.png" alt="img">
+                                    </div>
                                 </div>
-                             </div>
-                        <!--For Images -->
-                        <div class="col-md-3 col-md-offset-1">
-                            <div class="header-iphone">
-                                <!--Header Iphone-->
-                                <img src="img/iphone-header.png" alt="img">
                             </div>
+
                         </div>
                     </div>
-                    
-                </div>
-            </div>
-        </header>
+                </header> 
+        </section>
         <!--End of Header-->
         
         <!--About Us-->
@@ -111,7 +118,7 @@
             <!--About US Top-->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 ">
                         <!--Abous us title and description-->
                         <div class="section-title">
                             <h2>About Us</h2>
@@ -127,9 +134,9 @@
                 <div class="container">
                     <div class="row">
                         <!--About US Left Side-->
-                        <div class="col-md-6">
+                        <div class="col-md-6 ">
                             <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                                <img src="img/about-iphone.png">
+                                <img class="img-fluid" src="img/about-iphone.png">
                             </div>
                         </div>
                         
@@ -182,7 +189,7 @@
             <div class="testimonial-overlay">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 wow bounceInDown">
+                        <div class="col-md-12  wow bounceInDown">
                             <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                               <ol class="carousel-indicators">
@@ -235,7 +242,7 @@
         <section class="feature" id="feature">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 ">
                         <div class="section-title wow fadeIn" data-wow-duration="1s">
                             <h2>Features</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
@@ -247,7 +254,7 @@
             <div class="feature-inner-wraper">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
+                        <div class="col-md-4  wow fadeInLeft" data-wow-duration="1s">
                             <!--Left Feature 1-->
                             <div class="left-feature-item">
                                 <!--icon-->
@@ -284,14 +291,14 @@
                         </div>
                         
                         <!--Middle Content-->
-                        <div class="col-md-4 wow bounceInDown" data-wow-duration="1s">
+                        <div class="col-md-4 col-sm-12 wow bounceInDown" data-wow-duration="1s">
                             <div class="feature-iphone">
                                 <img src="img/iphone-02.png">
                             </div>
                         </div>
                         
                         <!--right Side Content 01-->
-                        <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
+                        <div class="col-md-4  wow fadeInRight" data-wow-duration="1s">
                             <div class="right-feature-item">
                                 <!--Icon-->
                                 <div class="right-feature-item-icon">
@@ -339,7 +346,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, sem.</p>
                     </div>
                     <!--Right Side-->
-                    <div class="col-nd-3 wow fadeInLeftBig" data-wow-duration="1s">
+                    <div class="col-nd-3 col-sm-4 wow fadeInLeftBig" data-wow-duration="1s">
                         <a class="btn btn-primary btn-purchase" href="#">Purchase Now</a>
                     </div>
                 </div>
@@ -351,7 +358,7 @@
         <section class="screen" id="screen">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 ">
                         <div class="section-title">
                             <h2>Screens</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
@@ -395,7 +402,7 @@
                 <div class="container wow bounceInLeft" data-wow-duration="1s">
                     <div class="row text-center">
                         <!--First item-->
-                        <div class="col-md-3">
+                        <div class="col-md-3 ">
                             <div class="counter-item">
                                 <div><i class="fa fa-cloud-download"></i></div>
                                 <h2><span class="counter-number">3000</span> <span>+</span></h2>
@@ -404,7 +411,7 @@
                         </div>
                         
                         <!--Second item-->
-                        <div class="col-md-3">
+                        <div class="col-md-3 ">
                             <div class="counter-item">
                                 <div><i class="fa fa-gift"></i></div>
                                 <h2><span class="counter-number">150</span> <span>+</span></h2>
@@ -413,7 +420,7 @@
                         </div>
                         
                         <!--Third item-->
-                        <div class="col-md-3">
+                        <div class="col-md-3 ">
                             <div class="counter-item">
                                 <div><i class="fa fa-heart-o"></i></div>
                                 <h2><span class="counter-number">2000</span> <span>+</span></h2>
@@ -422,7 +429,7 @@
                         </div>
                         
                         <!--Fourth item-->
-                        <div class="col-md-3">
+                        <div class="col-md-3 ">
                             <div class="counter-item">
                                 <div><i class="fa fa-check"></i></div>
                                 <h2><span class="counter-number">2156</span> <span>+</span></h2>
@@ -440,7 +447,7 @@
         <section class="download-now" id="download">
             <div class="container wow fadeInUp" data-wow-duration="1s">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 ">
                         <div class="section-title">
                             <h2>Download Now</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
@@ -451,8 +458,8 @@
             <!--Poster-->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <img src="img/download-screen.png" alt="img">
+                    <div class="col-md-12  text-center">
+                        <img class="img-fluid" src="img/download-screen.png" alt="img">
                     </div>
                 </div>
             </div>
@@ -463,16 +470,16 @@
         <section class="available-on">
             <div class="container wow bounceInRight" data-wow-duration="1s">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <div class="available-title">
                             <h2>Availabe On</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                         </div>
                     </div>
                     <!--iOS-->
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 ">
                                 <a href="#">
                                 <div class="no-padding">
                                     <div class="availabe-on-item">
@@ -486,7 +493,7 @@
                             </div>
                             
                             <!--Android-->
-                            <div class="col-md-4">
+                            <div class="col-md-4 ">
                                 <a href="#">
                                 <div class="no-padding">
                                     <div class="availabe-on-item">
@@ -499,7 +506,7 @@
                                 </a>
                             </div>
                             <!--Windows-->
-                            <div class="col-md-4">
+                            <div class="col-md-4 ">
                                 <a href="#">
                                 <div class="no-padding">
                                     <div class="availabe-on-item">
@@ -525,7 +532,7 @@
         <section class="contact-us" id="contact">
             <div class="container wow bounceIn">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 ">
                         <div class="section-title">
                             <h2>CONTACT US</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
@@ -577,7 +584,7 @@
         <footer class="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 ">
                         <div id="copyright">
                             <p>Copyright &copy; 2020 <a href="#"> LoSo</a></p>
                         </div>
