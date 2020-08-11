@@ -39,7 +39,7 @@ $(function () {
     });
 
     function showHideNav() {
-        if ($(window).scrollTop() > 250) {
+        if ($(window).scrollTop() > 200) {
             $('.navbar').css({
                 'margin-top':'0',
                 'opacity':'1',
@@ -52,7 +52,7 @@ $(function () {
 
         } else {
             $('.navbar').css({
-                'opacity':'0' 
+                'opacity':'0.05' 
             });
             
             $('.navbar-default').css({
