@@ -30,7 +30,7 @@ $(function () {
 |   | Navbar
 -----------------------------
 */
-       
+     
 
 $(function () {
     showHideNav();
@@ -138,7 +138,6 @@ $(document).ready(function() {
         });
     }, 10)
 });
-
 
 
 
