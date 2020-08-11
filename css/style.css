@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     overflow-y:scroll;
     overflow-x: hidden;
 }
@@ -59,6 +59,7 @@ p{
 |   | Header
 -----------------------------
 */
+
 .header{
     background-image: url(../img/header-bg.jpg);
     background-attachment: fixed;
@@ -166,8 +167,7 @@ btn-tour:visited{
     margin-top: 8px;
 }
 .choose-us-title{
-    padding-bottom: 50px; 
-    padding-left: 
+    padding-bottom: 50px;
 }
 .choose-us-title h2{
     text-transform: uppercase;
@@ -188,7 +188,7 @@ btn-tour:visited{
 }
 
 .choose-us-title p{
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 20px;
     line-height: 24px;
 }
